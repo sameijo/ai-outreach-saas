@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://ai-outreach-backend.onrender.com/api/:path*"
+    }
+  ],
+  "framework": "nextjs",
+  "regions": ["iad1"]
+}

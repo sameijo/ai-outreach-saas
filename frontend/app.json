@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "AI Outreach",
+    "slug": "ai-outreach",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/icons/icon-512.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./public/icons/icon-512.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2563eb"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aioutreach.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./public/icons/icon-512.png",
+        "backgroundColor": "#2563eb"
+      },
+      "package": "com.aioutreach.app"
+    },
+    "web": {
+      "favicon": "./public/icons/icon-192.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          }
+        }
+      ]
+    ]
+  }
+}

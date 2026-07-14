@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#2563eb"/>
+  <text x="256" y="200" text-anchor="middle" fill="white" font-size="120" font-family="Arial" font-weight="bold">AI</text>
+  <text x="256" y="340" text-anchor="middle" fill="white" font-size="80" font-family="Arial">📧</text>
+  <text x="256" y="430" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="48" font-family="Arial">Outreach</text>
+</svg>

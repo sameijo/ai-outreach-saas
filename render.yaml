@@ -1,5 +1,4 @@
 services:
-  # ── Backend API ──────────────────────────────────────────
   - type: web
     name: ai-outreach-backend
     runtime: python
@@ -20,11 +19,3 @@ services:
         value: "false"
       - key: ALLOWED_ORIGINS
         value: https://ai-outreach.vercel.app
-      - key: OPENAI_API_KEY
-        sync: false
-      - key: APOLLO_API_KEY
-        sync: false
-      - key: HUNTER_API_KEY
-        sync: false
-      - key: SENDGRID_API_KEY
-        sync: false
